@@ -1,6 +1,4 @@
 
-[![Serverless Components](doc/slimphp.png)](http://serverless.com)
-
 ## Slimphp start project for tencent serverless
 
 ### Usage
