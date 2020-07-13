@@ -33,14 +33,14 @@ class ServerlessRequestCreator {
 
 function handler($event, $context) {
     $event = json_decode(json_encode($event), true);
-    $container = require __DIR__ . '/container.php';
+    $container = require __DIR__ . '/src/container.php';
     if ($container instanceof Container) {
         $psrContainer = new PsrContainer($container);
     } else {
         $psrContainer = $container;
     }
     AppFactory::setContainer($psrContainer);
-    $app = require __DIR__ . '/app.php';
+    $app = require __DIR__ . '/src/app.php';
     $container['event'] = $event;
     $container['context'] = $context;
     $requestCreator = new ServerlessRequestCreator($event);
