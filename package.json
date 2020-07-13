@@ -1,5 +1,5 @@
 {
-  "name": "slsnode",
+  "name": "sls-slim-php",
   "version": "1.0.0",
   "description": "Tencent Serverless Cloud Function example using Nodejs",
   "main": "index.js",
