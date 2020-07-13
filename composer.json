@@ -1,0 +1,17 @@
+{
+    "name": "twn39/sls-slim-php",
+    "authors": [
+        {
+            "name": "twn39",
+            "email": "twn39@163.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^4.5",
+        "slim/http": "^1.0",
+        "ext-json": "*",
+        "guzzlehttp/psr7": "^1.6",
+        "pimple/pimple": "^3.3",
+        "slim/psr7": "^1.1"
+    }
+}
