@@ -2,6 +2,10 @@
 
 ### Usage
 
+Install package:
+
+    composer install
+
 Edit the serverless.yml to adjust your project then run:
     
     sls deploy --debug
